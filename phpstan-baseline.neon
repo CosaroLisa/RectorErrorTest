@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Router\\:\\:__construct\\(\\) has parameter \\$routes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Router.php
+
+		-
+			message: "#^Property Router\\:\\:\\$dispatcher is never read, only written\\.$#"
+			count: 1
+			path: Router.php
+
+		-
+			message: "#^Property Router\\:\\:\\$routes is never read, only written\\.$#"
+			count: 1
+			path: Router.php
+
+		-
+			message: "#^Property Router\\:\\:\\$routes type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Router.php
