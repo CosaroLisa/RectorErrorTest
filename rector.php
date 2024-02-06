@@ -35,7 +35,6 @@ return static function (RectorConfig $rectorConfig): void {
     ]);
 
     $rectorConfig->skip([
-        //QUESTA CLASSE CREA UN PROBLEMA NELLA DEFINIZIONE DELLE ROUTE
         CallableThisArrayToAnonymousFunctionRector::class
     ]);
 
