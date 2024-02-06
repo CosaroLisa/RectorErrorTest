@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-
-use App\Utils\Error;
 use FastRoute;
 
 final class Router
